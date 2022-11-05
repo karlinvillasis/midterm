@@ -1,9 +1,12 @@
 CSS 
 
+/* Setting the font to a sans serif font */
 * {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
+/* Setting the backgound color */
 
 body {
     width: 100%;
@@ -20,7 +23,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Setting the header with image background */
 
 .starfish {
     background-image: url(../images/lone-starfish-wide.jpg);
@@ -38,7 +41,7 @@ body {
     font-weight: 100;
 }
 
-
+/* Setting the navbar */
 
 .navbar {
     display: inline-block;
@@ -51,6 +54,8 @@ body {
     
 }
 
+/* Styling the h2 and h3 */
+
 h2 {
     padding-left: 210px;
     font-weight: 100;
@@ -59,6 +64,8 @@ h2 {
 h3 {
     font-weight: 100px;
 }
+
+/* Styling the list */
 
 .starfishes {
     list-style-type: disc;
@@ -83,6 +90,7 @@ li a {
     background-color: #d4e9e7;
 }
 
+
 .life{
     padding-left: 210px;
     font-family: Arial, Helvetica, sans-serif;
@@ -102,19 +110,44 @@ li a {
     margin: 10px;
 }
 
+/* Styling the kinds of starfish */
+
+
+.kinds {
+   margin: 25%;
+   padding-left: 200;
+   
+}
+
+.button {
+    padding-left: 3000px;
+    margin: auto;
+    
+}
+
+/* Styling the Contact section */
+
 .contact-us {
     padding-left: 210px;
     width: 1000px;
 }
 
-.kinds {
-   width: 800px;
-   padding-left: 210px;
-   
+.contact {
+    padding-left: 300px;
+
 }
 
-.button {
-    padding-left: 300px;
+/* Styling the send button */
+.send {
+    border: 1px outset blue;
+    background-color: lightBlue;
+    
+ }
+
+ /* Styling the footer */
+
+.footer {
+    padding-left: 1000px;
 }
 
 
